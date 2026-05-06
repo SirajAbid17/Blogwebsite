@@ -134,8 +134,8 @@ export default function Navbar() {
           <div className="d-flex align-items-center gap-3 flex-column flex-lg-row">
            
             {!user ? (
-              <Link to="/login" className="w-100 w-lg-auto">
-                <button className="btn btn-primary rounded-pill px-4 w-100">
+              <Link to="/" className="w-100 w-lg-auto">
+                <button  className="btn btn-primary rounded-pill px-4 w-100">
                   Sign In
                 </button>
               </Link>
